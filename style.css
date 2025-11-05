@@ -1,0 +1,30 @@
+*{ /*quando quero mudar toda página*/
+    padding: 0%;
+    margin: 0%;
+background-color: #1a1a1a; /*Muda a cor do fundo*/
+}
+
+
+
+
+li a{
+    text-decoration: none; /*Faz um Comentário*/
+    font-size: 20px; /*Mudar o tamanho da fonte*/
+    color: rgb(255, 255, 255);/*Mudar a cor do texto*/
+}
+
+
+
+li{
+list-style: none; /*Remover formatação da lista, remove os pontos*/
+
+}
+#logo{
+    height: 100px; /*Altura*/
+    width: 165px; /*Largura*/
+}
+
+ul{
+    display: flex; /*Indicar a propriedade FelxBox*/
+    flex-direction: row;/* Colocar os elementos na horizontal ou na vertical*/
+}
