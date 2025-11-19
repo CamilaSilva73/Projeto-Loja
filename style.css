@@ -108,7 +108,7 @@ padding: 35px; /*Espaçamento interno*/
 .Produtos{
     height: 350px;
     width: 200px;
-    padding: 0 20px;
+   
    
 }
 
@@ -125,6 +125,7 @@ padding: 35px; /*Espaçamento interno*/
     height: 15px;
     width: 15px;
     border-radius: 100%;
+
  
   
     
@@ -152,5 +153,60 @@ padding: 35px; /*Espaçamento interno*/
     flex-direction: row;
     justify-content: space-evenly;
     width: 100px;
+    align-items: center;
 
+
+}
+
+
+
+.carousel{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;  /* Ele dar uma distância igual entre os elementos */
+}
+
+.xbox{
+    background-image:url("./assets/x-box.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 900px;
+    border-radius: 15px;
+
+   
+    
+}
+.texto-xbox{
+    font-size: 25px;
+    color: #ffffff;
+
+}
+.btn-xbox{
+width: 145px;
+height: 50px;
+border-radius: 30px;
+background-color:#7a7a7a;
+color: #ffffff;
+font-weight: bold;
+border: none;
+font-size: 20px;
+margin: 0px;
+
+}
+
+.caixa-texto-xbox{
+width: 220px;
+padding: 35px; /*Espaçamento interno*/
+color: #ffffff;
+float: right;
+font-size: 20px;
+
+}
+.section-xbox{
+
+    display: flex;
+    justify-content: center;
+    
 }
