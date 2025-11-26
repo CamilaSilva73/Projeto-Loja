@@ -155,10 +155,7 @@ padding: 35px; /*Espaçamento interno*/
     width: 100px;
     align-items: center;
 
-
 }
-
-
 
 .carousel{
     display: flex;
@@ -211,5 +208,79 @@ font-size: 20px;
     
 }
 
+.footer1{
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+     display: flex;
+    justify-content: center; 
+    flex-direction: column;
+    gap: 0px;              
+    margin-top: 50px;
+    }
+    
+    .texto-footer1{
+    width: 145px;
+    height: 40px;
+    border-radius: 30px;
+    color: #916c6c;
+}
+
+.texto-footer{
+   width: 145px;
+   height: 40px;
+   border-radius: 30px;
+   color: #ffffff;
+   font-size: 15px;
+   display: flex;
+   gap: -5px;              
+  
+}
+
+.footer2{
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+    gap: 0px;              
+    margin-top: 50px;
+}
+.texto-footer2{
+    width: 145px;
+    height: 40px;
+    border-radius: 30px;
+    color: #916c6c;
+}
+
+.texto-caixa2{
+   width: 145px;
+   height: 40px;
+   border-radius: 30px;
+   color: #ffffff;
+   font-size: 15px;
+   display: flex;
+   gap: 15px;              
+   
+}
+.footer3{
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+    gap: 40px;              
+    margin-top: 20px;
+}
+
+.texto-footer3{
+    width: 1000px;
+    height: 100px;
+    background-color: #333333;
+    color: #ffffff;
+    font-size: large;
+    margin: 25px;      
+ 
+}
+ 
  
 
